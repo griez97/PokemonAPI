@@ -1,47 +1,57 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Pokemon</title>
-  </head>
-  <body>
-    <div id="app">
-      <div class="logo__image">
-        <img src="./assets/img/logo.png" alt="" class="pokemon__logo-image">
-      </div>
+    <head>
+        <meta charset="UTF-8" />
+        <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Pokemon</title>
+    </head>
+    <body>
+        <div id="app">
+            <div class="logo__image">
+                <img
+                    src="./src/assets/img/Logo-Pokemon.png"
+                    alt="Pokemon"
+                    class="pokemon__logo-image"
+                />
+            </div>
 
-      <div class="input__container">
-        <input type="text" class="input__name-pokemons" placeholder="Search Pokemon">
-        <button class="btn__search">Search</button>
-      </div>
+            <div class="input__container">
+                <label for="pokemon">PokeSearch</label>
+                <div class="poke_search">
+                    <input
+                        type="text"
+                        name="pokemon"
+                        class="input__name-pokemons"
+                        placeholder="Ex: Charizard or 6"
+                    />
+                    <button class="btn__search">Search</button>
+                </div>
+            </div>
 
-      <div class="type__container">
-        <button class="type">normal</button>
-        <button class="type">fighting</button>
-        <button class="type">flying</button>
-        <button class="type">poison</button>
-        <button class="type">ground</button>
-        <button class="type">rock</button>
-        <button class="type">bug</button>
-        <button class="type">ghost</button>
-        <button class="type">steel</button>
-        <button class="type">fire</button>
-        <button class="type">water</button>
-        <button class="type">grass</button>
-        <button class="type">electric</button>
-        <button class="type">psychic</button>
-        <button class="type">ice</button>
-        <button class="type">dragon</button>
-        <button class="type">dark</button>
-        <button class="type">fairy</button>
-        <button class="type">steel</button>
-      </div>
+            <div class="type__container">
+                <button class="type normal">Normal</button>
+                <button class="type fire">Fire</button>
+                <button class="type water">Water</button>
+                <button class="type electric">Electric</button>
+                <button class="type grass">Grass</button>
+                <button class="type ice">Ice</button>
+                <button class="type fighting">Fighting</button>
+                <button class="type poison">Poison</button>
+                <button class="type ground">Ground</button>
+                <button class="type flying">Flying</button>
+                <button class="type psychic">Psychic</button>
+                <button class="type bug">Bug</button>
+                <button class="type rock">Rock</button>
+                <button class="type ghost">Ghost</button>
+                <button class="type dragon">Dragon</button>
+                <button class="type dark">Dark</button>
+                <button class="type steel">Steel</button>
+                <button class="type fairy">Fairy</button>
+            </div>
 
-      <div class="pokemon__container">
-      
-        <!-- <div class="pokemon">
+            <div class="pokemon__container">
+                <!-- <div class="pokemon">
           <div class="pokemon__box">
             <img src="" alt="" class="pokemon__img">
           </div>
@@ -50,23 +60,23 @@
             <span class="pokemon__name"></span>
           </div>
         </div> -->
-      </div>
-    </div>
+            </div>
+        </div>
 
-    <!-- <div class="overlay">
+        <!-- <div class="overlay">
       <div class="modal">
         <div class="pokemon__box">
           <img src="" alt="" class="pokemon__img">
         </div>
 
         <div class="pokemon__content">
-         <div class="ability__container">
+          <div class="ability__container">
           <p class="ability"></p>
-         </div>
+          </div>
 
         </div>
       </div>
     </div> -->
-    <script type="module" src="/src/main.ts"></script>
-  </body>
+        <script type="module" src="/src/main.ts"></script>
+    </body>
 </html>
