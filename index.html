@@ -4,10 +4,69 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite + TS</title>
+    <title>Pokemon</title>
   </head>
   <body>
-    <div id="app"></div>
+    <div id="app">
+      <div class="logo__image">
+        <img src="./assets/img/logo.png" alt="" class="pokemon__logo-image">
+      </div>
+
+      <div class="input__container">
+        <input type="text" class="input__name-pokemons" placeholder="Search Pokemon">
+        <button class="btn__search">Search</button>
+      </div>
+
+      <div class="type__container">
+        <button class="type">normal</button>
+        <button class="type">fighting</button>
+        <button class="type">flying</button>
+        <button class="type">poison</button>
+        <button class="type">ground</button>
+        <button class="type">rock</button>
+        <button class="type">bug</button>
+        <button class="type">ghost</button>
+        <button class="type">steel</button>
+        <button class="type">fire</button>
+        <button class="type">water</button>
+        <button class="type">grass</button>
+        <button class="type">electric</button>
+        <button class="type">psychic</button>
+        <button class="type">ice</button>
+        <button class="type">dragon</button>
+        <button class="type">dark</button>
+        <button class="type">fairy</button>
+        <button class="type">steel</button>
+      </div>
+
+      <div class="pokemon__container">
+      
+        <!-- <div class="pokemon">
+          <div class="pokemon__box">
+            <img src="" alt="" class="pokemon__img">
+          </div>
+          <div class="pokemon__content">
+            <span class="pokemon__id"></span>
+            <span class="pokemon__name"></span>
+          </div>
+        </div> -->
+      </div>
+    </div>
+
+    <!-- <div class="overlay">
+      <div class="modal">
+        <div class="pokemon__box">
+          <img src="" alt="" class="pokemon__img">
+        </div>
+
+        <div class="pokemon__content">
+         <div class="ability__container">
+          <p class="ability"></p>
+         </div>
+
+        </div>
+      </div>
+    </div> -->
     <script type="module" src="/src/main.ts"></script>
   </body>
 </html>
