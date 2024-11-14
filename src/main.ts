@@ -1,7 +1,6 @@
 import { IPokemon } from "./interfaces/IPokemon";
 import { IPokemonJSON, Result } from "./interfaces/IPokemonJSON";
 import { Pokemon } from "./interfaces/IPokeType";
-import "./style.css";
 
 const pokemonContainer = document.querySelector(".pokemon__container") as HTMLElement;
 const inputNamePokemons = document.querySelector(".input__name-pokemons") as HTMLInputElement;
